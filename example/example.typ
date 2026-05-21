@@ -3,7 +3,7 @@
 #show: slides.with(
   title: "Diatypst", // Required
   subtitle: "easy slides in typst",
-  date: "01.07.2024",
+  date: datetime.today().display("[day]/[month]/[year]"),
   authors: ("Author Name"),
   // Optional Style Options
   title-color: blue.darken(50%),
@@ -34,6 +34,8 @@ Features:
 - default show rules for terms, code, lists, ... that match color-theme
 
 This short presentation is a showcase of the features and options of _diatypst_.
+
+Created with _diatypst_ v0.9.3, for the latest version and documentation, see the #link("https://mdwm.org/diatypst/")[diatypst guides].
 
 == Usage
 

@@ -1,10 +1,14 @@
 # Update Instructions
 
 - Change all the version numbers from XX.OLD to XX.NEW
-- Run the example again (in normal as well as full theme)
+- Run the example again 
+  - First the full theme (rename to `example_full.pdf`)
+  - then the normal theme 
+  - -> Commit
+- update the linked Example PDFs 
+  - replace the commit in the URL with the new one
   - Commit ->
-- update the linked Example PDFs with 
-  - Commit ->
+  
 - Copy the folder to a new location, name it XX.NEW
 - Delete:
   - diaquarto/
